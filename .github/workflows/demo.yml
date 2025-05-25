@@ -1,0 +1,13 @@
+name: Demo Email Step
+
+on:
+  workflow_dispatch:    # Manual trigger
+  push:                 # Or on every push, if you like
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 23f3001135@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
